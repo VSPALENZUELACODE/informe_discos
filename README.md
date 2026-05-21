@@ -18,8 +18,3 @@ Instalar `ssmtp` y `mailutils`:
 ```bash
 sudo apt update
 sudo apt install ssmtp mailutils
-
----
-
-## Configuración de ssmtp
-
