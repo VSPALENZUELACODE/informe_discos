@@ -11,6 +11,15 @@ Este repositorio contiene:
 - El script `informe_discos.sh`
 - Este archivo README explicando su funcionamiento
 
+## Configuración de ssmtp
+El archivo de configuración se encuentra en: /etc/ssmtp/ssmtp.conf
+
+## Script de envío del informe
+El script principal de la práctica es informe_discos.sh, encargado de generar el informe y enviarlo por correo.
+
+## Programación automática con CRON
+Para que el script se ejecute automáticamente todos los días a las 19:00, se debe añadir una entrada en el cron del sistema.
+
 ---
 
 ## Paquetes necesarios
